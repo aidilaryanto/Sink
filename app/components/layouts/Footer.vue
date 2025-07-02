@@ -50,7 +50,7 @@ const { title, email, telegram, blog, twitter, github } = useAppConfig()
           v-if="blog"
           :href="blog"
           target="_blank"
-          title="Blog"
+          title="Portfolio"
           class="text-gray-400 hover:text-gray-500"
         >
           <span class="sr-only">{{ $t('layouts.footer.social.blog') }}</span>
