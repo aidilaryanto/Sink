@@ -5,7 +5,7 @@ export default defineAppConfig({
   twitter: 'https://s.aidilaryanto.id/x',
   telegram: 'https://s.aidilaryanto.id/telegram',
   mastodon: 'https://sink.cool/mastodon',
-  blog: 'https://s.aidilaryanto.id/blog',
+  blog: 'https://s.aidilaryanto.id/portfolio',
   description: 'A Simple / Speedy / Secure Link Shortener with Analytics, 100% run on Cloudflare.',
   image: 'https://sink.cool/banner.png',
   previewTTL: 300, // 5 minutes
