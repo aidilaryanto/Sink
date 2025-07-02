@@ -1,7 +1,7 @@
 <script setup>
 import { BloggerIcon, GitHubIcon, GmailIcon, TelegramIcon, XIcon } from 'vue3-simple-icons'
 
-const { title, email, telegram, blog, twitter, mastodon, github } = useAppConfig()
+const { title, email, telegram, blog, twitter, github } = useAppConfig()
 </script>
 
 <template>
