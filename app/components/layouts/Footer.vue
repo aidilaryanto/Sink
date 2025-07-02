@@ -1,5 +1,5 @@
 <script setup>
-import { BloggerIcon, GitHubIcon, GmailIcon, TelegramIcon, XIcon } from 'vue3-simple-icons'
+import { BioLinkIcon, GitHubIcon, GmailIcon, TelegramIcon, XIcon } from 'vue3-simple-icons'
 
 const { title, email, telegram, blog, twitter, github } = useAppConfig()
 </script>
@@ -54,7 +54,7 @@ const { title, email, telegram, blog, twitter, github } = useAppConfig()
           class="text-gray-400 hover:text-gray-500"
         >
           <span class="sr-only">{{ $t('layouts.footer.social.blog') }}</span>
-          <BloggerIcon
+          <BioLinkIcon
             class="w-6 h-6"
           />
         </a>
